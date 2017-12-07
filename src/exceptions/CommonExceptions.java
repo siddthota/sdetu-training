@@ -18,7 +18,7 @@ public class CommonExceptions {
 		
 		String[] states = { "CA", "TX", "FL", "NY" };
 		
-		for (int i=0; i<states.length; i++) {
+		for (int i=0; i<=states.length; i++) {
 			try {
 				System.out.println(states[i]);
 			} catch (ArrayIndexOutOfBoundsException e) {

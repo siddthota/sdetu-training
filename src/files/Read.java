@@ -10,12 +10,11 @@ public class Read {
 
 	public static void main(String[] args) {
 		// 1. Define the file (path) that we want to read
-		String filename = "C:\\SDETuniversity\\Files\\FileToRead.txt";
+		String filename = "C:\\testfolder\\FileToRead.txt";
 		String text = null;
 		
 		// 2. Create the file in Java
 		File file = new File(filename);
-		
 		try {
 			// 3. Open the file
 			BufferedReader br = new BufferedReader(new FileReader(file));
